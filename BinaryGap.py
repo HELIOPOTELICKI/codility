@@ -9,7 +9,7 @@ def solution(N):
             c += 1
         elif i == '0' and ultimo != '0':
             c = 1
-        elif i != '0':
+        elif i == '1':
             if c > maior:
                 maior = c
 
