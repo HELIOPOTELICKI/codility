@@ -17,6 +17,4 @@ def solution(N, A):
             l[i] = m
     return l
 
-l = [3,4,4,6,1,4,4]
-print(solution(5, l))
 

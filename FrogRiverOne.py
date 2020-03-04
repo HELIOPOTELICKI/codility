@@ -7,7 +7,4 @@ def solution(X, A):
 
     return -1
 
-l = [1,3,1,4,4,3,5,2]
-
-print(solution(5,l))
 

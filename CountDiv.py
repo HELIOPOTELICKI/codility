@@ -1,8 +1,12 @@
 def solution(A, B, K):
     c = 0
-    for i in range(A,B + 1):
-        if i % K == 0:
+    if A % K == 0:
+        for i in range(A, B + 1, K):
             c += 1
-    return c
+    else:
+        m = A - K
+        A += m
+        for i in range(A, B + 1, K):
+            c += 1
 
-print(solution(6,11,2))
+    return c

@@ -9,6 +9,3 @@ def solution(A):
         return 1
 
     return 0
-
-l = [4,1,3,2]
-print(solution(l))
